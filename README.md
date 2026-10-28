@@ -36,7 +36,7 @@ Install QueryMoat, then uninstall QueryDock (the last QueryDock release offers t
 
 ```yaml
 - uses: actions/checkout@v4
-- uses: heysidhant/querymoat@v0.3.0
+- uses: heysidhant/querymoat@v0.7.2
 ```
 
 Any other CI: `npx querymoat-check [dir] [--warn-only] [--format text|github]` (exit `1` on errors).
